@@ -12,6 +12,8 @@ void TASK_SMART_FLEE_PED(Ped ped, Ped fleeTarget, float distance, Any fleeTime, 
 Makes a ped run away from another ped (fleeTarget).  
 distance = ped will flee this distance.  
 fleeTime = ped will flee for this amount of time, set to "-1" to flee forever  
+
+WARNING: Make sure peds are NOT angry when you call this native or you'll get a crash.
 ```
 
 ## Parameters
